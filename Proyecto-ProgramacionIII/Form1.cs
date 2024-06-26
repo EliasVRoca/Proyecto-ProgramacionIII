@@ -1,5 +1,6 @@
 
 using Proyecto_ProgramacionIII.Cadena;
+using Proyecto_ProgramacionIII.Vectores;
 
 namespace Proyecto_ProgramacionIII
 {
@@ -42,27 +43,32 @@ namespace Proyecto_ProgramacionIII
 
         private void ejercicio1VectorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Vector1 vector1 = new Vector1();
+            vector1.Show();
         }
 
         private void ejercicio2VectorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Vector2 vector2 = new Vector2();
+            vector2.Show();
         }
 
         private void ejercicio3VectorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Vector3 vector3 = new Vector3();
+            vector3.Show();
         }
 
         private void ejercicio4VectorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Vector4 vector4 = new Vector4();
+            vector4.Show();
         }
 
         private void ejercicio5VectorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Vector5 vector5 = new Vector5();
+            vector5.Show();
         }
     }
 }
