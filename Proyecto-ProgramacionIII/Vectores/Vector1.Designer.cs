@@ -34,6 +34,7 @@
             EJECUTAR = new Button();
             RES = new Label();
             label2 = new Label();
+            label1 = new Label();
             SuspendLayout();
             // 
             // TITLE
@@ -47,15 +48,15 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(40, 82);
+            textBox1.Location = new Point(40, 129);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(217, 50);
+            textBox1.Size = new Size(217, 66);
             textBox1.TabIndex = 1;
             // 
             // EJECUTAR
             // 
-            EJECUTAR.Location = new Point(87, 168);
+            EJECUTAR.Location = new Point(77, 234);
             EJECUTAR.Name = "EJECUTAR";
             EJECUTAR.Size = new Size(116, 45);
             EJECUTAR.TabIndex = 2;
@@ -66,7 +67,7 @@
             // RES
             // 
             RES.AutoSize = true;
-            RES.Location = new Point(40, 301);
+            RES.Location = new Point(40, 318);
             RES.Name = "RES";
             RES.Size = new Size(69, 15);
             RES.TabIndex = 3;
@@ -84,11 +85,21 @@
             label2.TabIndex = 4;
             label2.Text = resources.GetString("label2.Text");
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(40, 93);
+            label1.Name = "label1";
+            label1.Size = new Size(230, 15);
+            label1.TabIndex = 5;
+            label1.Text = "Ingresar vector: Ejemplo 1,44,77,88,456,454";
+            // 
             // Vector1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label1);
             Controls.Add(label2);
             Controls.Add(RES);
             Controls.Add(EJECUTAR);
@@ -107,5 +118,6 @@
         private Button EJECUTAR;
         private Label RES;
         private Label label2;
+        private Label label1;
     }
 }
