@@ -16,5 +16,18 @@ namespace Proyecto_ProgramacionIII.Vectores
         {
             InitializeComponent();
         }
+
+        public int contar_pares_vector(int[] vector) 
+        {
+            for (int i = 0; i < vector.Length; i++)
+            {
+                
+            }
+        }
+
+        private void EJECUTAR_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
