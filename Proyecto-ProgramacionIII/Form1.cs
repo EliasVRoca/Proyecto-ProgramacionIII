@@ -39,5 +39,30 @@ namespace Proyecto_ProgramacionIII
             Cadena5 cadena5 = new Cadena5();
             cadena5.Show();
         }
+
+        private void ejercicio1VectorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ejercicio2VectorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ejercicio3VectorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ejercicio4VectorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ejercicio5VectorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
