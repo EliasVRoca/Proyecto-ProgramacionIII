@@ -16,5 +16,23 @@ namespace Proyecto_ProgramacionIII.Cadena
         {
             InitializeComponent();
         }
+
+        public string quitarPrimerLetra(string cadena)
+        {
+            string[] palabras = cadena.Split(" ");
+            for (int i = 0; i < palabras.Length; i++)
+            {
+                palabras[i] = palabras[i].Substring(1);
+            }
+
+            return string.Join(" ", palabras);
+        }
+
+        private void Ejecutar_Click(object sender, EventArgs e)
+        {
+            string cadena = Entrada.Text.Trim(); ;
+            string res = quitarPrimerLetra(cadena);
+            Respuesta.Text = $"Respuesta: \n {res}";
+        }
     }
 }
