@@ -117,4 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>public int contar_pares_vector(int[] vector) 
+{
+    Helpers helpers = new Helpers();
+    int par = 0;
+    for (int i = 0; i &lt; vector.Length; i++)
+    {
+        if (helpers.esPar(vector[i]))
+        {
+            par++;
+        }
+    }
+    return par;
+}</value>
+  </data>
 </root>

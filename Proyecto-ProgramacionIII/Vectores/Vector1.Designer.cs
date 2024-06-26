@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Vector1));
             TITLE = new Label();
             textBox1 = new TextBox();
             EJECUTAR = new Button();
@@ -74,11 +75,14 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(569, 180);
+            label2.BackColor = SystemColors.ControlDarkDark;
+            label2.Font = new Font("Cascadia Code PL", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(370, 82);
             label2.Name = "label2";
-            label2.Size = new Size(38, 15);
+            label2.Size = new Size(368, 221);
             label2.TabIndex = 4;
-            label2.Text = "label2";
+            label2.Text = resources.GetString("label2.Text");
             // 
             // Vector1
             // 
