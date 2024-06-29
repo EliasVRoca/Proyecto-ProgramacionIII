@@ -37,7 +37,7 @@ namespace Proyecto_ProgramacionIII
         {
             Ejercicio_5 ejercicio_5 = new Ejercicio_5();
             ejercicio_5.Show();
-
+        }
 
         private void ejercicio1CadenaToolStripMenuItem_Click(object sender, EventArgs e)
         {
