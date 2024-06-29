@@ -1,8 +1,8 @@
 
 using Proyecto___Programacion_III___UPC;
+using Proyecto___Programacion_III___UPC.Form_num;
 using Proyecto_ProgramacionIII.Cadena;
 using Proyecto_ProgramacionIII.Vectores;
-
 
 namespace Proyecto_ProgramacionIII
 {
@@ -15,7 +15,7 @@ namespace Proyecto_ProgramacionIII
 
         private void serie_1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           Ejercicio_1 ejercicio_1 = new Ejercicio_1();
+            Ejercicio_1 ejercicio_1 = new Ejercicio_1();
             ejercicio_1.Show();
         }
         private void serie_2ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -97,6 +97,36 @@ namespace Proyecto_ProgramacionIII
         {
             Vector5 vector5 = new Vector5();
             vector5.Show();
+        }
+
+        private void ejercicio1NumerosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Mayor_Num_Form M_N = new Mayor_Num_Form();
+            M_N.Show();
+        }
+
+        private void Ejercicio2Numeros_Click(object sender, EventArgs e)
+        {
+            Sum_Pares_Form Sum_Pares = new Sum_Pares_Form();
+            Sum_Pares.Show();
+        }
+
+        private void ejercicio3Numeros_Click(object sender, EventArgs e)
+        {
+            Mover_Mayor_Form Mov_Mayor = new Mover_Mayor_Form();
+            Mov_Mayor.Show();
+        }
+
+        private void ejercicio4Numeros_Click(object sender, EventArgs e)
+        {
+            Num_Ordenado_Form Num_order = new Num_Ordenado_Form();
+            Num_order.Show();
+        }
+
+        private void ejercicio5Numeros_Click(object sender, EventArgs e)
+        {
+            Impares_antes_Pares_Form Imp_antes_pares = new Impares_antes_Pares_Form();
+            Imp_antes_pares.Show(); 
         }
     }
 }

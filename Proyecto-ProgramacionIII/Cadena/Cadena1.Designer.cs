@@ -39,11 +39,11 @@
             // 
             Funcion.AutoSize = true;
             Funcion.BackColor = SystemColors.ControlDarkDark;
-            Funcion.Font = new Font("Cascadia Code PL", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Funcion.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Funcion.ForeColor = SystemColors.ControlLightLight;
             Funcion.Location = new Point(422, 127);
             Funcion.Name = "Funcion";
-            Funcion.Size = new Size(273, 112);
+            Funcion.Size = new Size(210, 105);
             Funcion.TabIndex = 7;
             Funcion.Text = "public int count_words(string words) {\r\n\r\n    int res = 0;\r\n    string[] arreglo = words.Split();\r\n    res = arreglo.Length;\r\n    return res;\r\n}";
             // 
