@@ -36,12 +36,6 @@
             ejercicio3CadenaToolStripMenuItem = new ToolStripMenuItem();
             ejercicio4CadenaToolStripMenuItem = new ToolStripMenuItem();
             ejercicio5CadenaToolStripMenuItem = new ToolStripMenuItem();
-            vectoresToolStripMenuItem = new ToolStripMenuItem();
-            ejercicio1VectorToolStripMenuItem = new ToolStripMenuItem();
-            ejercicio2VectorToolStripMenuItem = new ToolStripMenuItem();
-            ejercicio3VectorToolStripMenuItem = new ToolStripMenuItem();
-            ejercicio4VectorToolStripMenuItem = new ToolStripMenuItem();
-            ejercicio5VectorToolStripMenuItem = new ToolStripMenuItem();
             abelToolStripMenuItem = new ToolStripMenuItem();
             numeroToolStripMenuItem = new ToolStripMenuItem();
             ejercicio1NumerosToolStripMenuItem = new ToolStripMenuItem();
@@ -56,13 +50,20 @@
             serie_3ToolStripMenuItem = new ToolStripMenuItem();
             serie_4ToolStripMenuItem = new ToolStripMenuItem();
             serie_5ToolStripMenuItem = new ToolStripMenuItem();
+            andresToolStripMenuItem = new ToolStripMenuItem();
+            vectorToolStripMenuItem = new ToolStripMenuItem();
+            ejercicio1VecToolStripMenuItem = new ToolStripMenuItem();
+            ejercicio2VecToolStripMenuItem = new ToolStripMenuItem();
+            ejercicio3VecToolStripMenuItem = new ToolStripMenuItem();
+            ejercicio4VecToolStripMenuItem = new ToolStripMenuItem();
+            ejercicio5VecToolStripMenuItem = new ToolStripMenuItem();
             Titulo = new Label();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { eliasToolStripMenuItem, abelToolStripMenuItem, joseToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { eliasToolStripMenuItem, abelToolStripMenuItem, joseToolStripMenuItem, andresToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(800, 24);
@@ -71,7 +72,7 @@
             // 
             // eliasToolStripMenuItem
             // 
-            eliasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { cadenasToolStripMenuItem, vectoresToolStripMenuItem });
+            eliasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { cadenasToolStripMenuItem });
             eliasToolStripMenuItem.Name = "eliasToolStripMenuItem";
             eliasToolStripMenuItem.Size = new Size(42, 20);
             eliasToolStripMenuItem.Text = "Elias";
@@ -80,7 +81,7 @@
             // 
             cadenasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { ejercicio1CadenaToolStripMenuItem, ejercicio2CadenaToolStripMenuItem, ejercicio3CadenaToolStripMenuItem, ejercicio4CadenaToolStripMenuItem, ejercicio5CadenaToolStripMenuItem });
             cadenasToolStripMenuItem.Name = "cadenasToolStripMenuItem";
-            cadenasToolStripMenuItem.Size = new Size(200, 22);
+            cadenasToolStripMenuItem.Size = new Size(180, 22);
             cadenasToolStripMenuItem.Text = "Cadenas";
             // 
             // ejercicio1CadenaToolStripMenuItem
@@ -117,48 +118,6 @@
             ejercicio5CadenaToolStripMenuItem.Size = new Size(180, 22);
             ejercicio5CadenaToolStripMenuItem.Text = "Ejercicio 5  Cadena";
             ejercicio5CadenaToolStripMenuItem.Click += ejercicio5CadenaToolStripMenuItem_Click;
-            // 
-            // vectoresToolStripMenuItem
-            // 
-            vectoresToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { ejercicio1VectorToolStripMenuItem, ejercicio2VectorToolStripMenuItem, ejercicio3VectorToolStripMenuItem, ejercicio4VectorToolStripMenuItem, ejercicio5VectorToolStripMenuItem });
-            vectoresToolStripMenuItem.Name = "vectoresToolStripMenuItem";
-            vectoresToolStripMenuItem.Size = new Size(200, 22);
-            vectoresToolStripMenuItem.Text = "Andres_Robles_Vectores";
-            // 
-            // ejercicio1VectorToolStripMenuItem
-            // 
-            ejercicio1VectorToolStripMenuItem.Name = "ejercicio1VectorToolStripMenuItem";
-            ejercicio1VectorToolStripMenuItem.Size = new Size(180, 22);
-            ejercicio1VectorToolStripMenuItem.Text = "Ejercicio 1 Vector";
-            ejercicio1VectorToolStripMenuItem.Click += ejercicio1VectorToolStripMenuItem_Click;
-            // 
-            // ejercicio2VectorToolStripMenuItem
-            // 
-            ejercicio2VectorToolStripMenuItem.Name = "ejercicio2VectorToolStripMenuItem";
-            ejercicio2VectorToolStripMenuItem.Size = new Size(180, 22);
-            ejercicio2VectorToolStripMenuItem.Text = "Ejercicio 2  Vector";
-            ejercicio2VectorToolStripMenuItem.Click += ejercicio2VectorToolStripMenuItem_Click;
-            // 
-            // ejercicio3VectorToolStripMenuItem
-            // 
-            ejercicio3VectorToolStripMenuItem.Name = "ejercicio3VectorToolStripMenuItem";
-            ejercicio3VectorToolStripMenuItem.Size = new Size(180, 22);
-            ejercicio3VectorToolStripMenuItem.Text = "Ejercicio 3  Vector";
-            ejercicio3VectorToolStripMenuItem.Click += ejercicio3VectorToolStripMenuItem_Click;
-            // 
-            // ejercicio4VectorToolStripMenuItem
-            // 
-            ejercicio4VectorToolStripMenuItem.Name = "ejercicio4VectorToolStripMenuItem";
-            ejercicio4VectorToolStripMenuItem.Size = new Size(180, 22);
-            ejercicio4VectorToolStripMenuItem.Text = "Ejercicio 4  Vector";
-            ejercicio4VectorToolStripMenuItem.Click += ejercicio4VectorToolStripMenuItem_Click;
-            // 
-            // ejercicio5VectorToolStripMenuItem
-            // 
-            ejercicio5VectorToolStripMenuItem.Name = "ejercicio5VectorToolStripMenuItem";
-            ejercicio5VectorToolStripMenuItem.Size = new Size(180, 22);
-            ejercicio5VectorToolStripMenuItem.Text = "Ejercicio 5  Vector";
-            ejercicio5VectorToolStripMenuItem.Click += ejercicio5VectorToolStripMenuItem_Click;
             // 
             // abelToolStripMenuItem
             // 
@@ -258,6 +217,56 @@
             serie_5ToolStripMenuItem.Text = "Ejercicio 5";
             serie_5ToolStripMenuItem.Click += serie_5ToolStripMenuItem_Click;
             // 
+            // andresToolStripMenuItem
+            // 
+            andresToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { vectorToolStripMenuItem });
+            andresToolStripMenuItem.Name = "andresToolStripMenuItem";
+            andresToolStripMenuItem.Size = new Size(56, 20);
+            andresToolStripMenuItem.Text = "Andres";
+            // 
+            // vectorToolStripMenuItem
+            // 
+            vectorToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { ejercicio1VecToolStripMenuItem, ejercicio2VecToolStripMenuItem, ejercicio3VecToolStripMenuItem, ejercicio4VecToolStripMenuItem, ejercicio5VecToolStripMenuItem });
+            vectorToolStripMenuItem.Name = "vectorToolStripMenuItem";
+            vectorToolStripMenuItem.Size = new Size(118, 22);
+            vectorToolStripMenuItem.Text = "Vectores";
+            vectorToolStripMenuItem.Click += vectorToolStripMenuItem_Click;
+            // 
+            // ejercicio1VecToolStripMenuItem
+            // 
+            ejercicio1VecToolStripMenuItem.Name = "ejercicio1VecToolStripMenuItem";
+            ejercicio1VecToolStripMenuItem.Size = new Size(148, 22);
+            ejercicio1VecToolStripMenuItem.Text = "Ejercicio 1 Vec";
+            ejercicio1VecToolStripMenuItem.Click += ejercicio1VecToolStripMenuItem_Click;
+            // 
+            // ejercicio2VecToolStripMenuItem
+            // 
+            ejercicio2VecToolStripMenuItem.Name = "ejercicio2VecToolStripMenuItem";
+            ejercicio2VecToolStripMenuItem.Size = new Size(148, 22);
+            ejercicio2VecToolStripMenuItem.Text = "Ejercicio 2 Vec";
+            ejercicio2VecToolStripMenuItem.Click += ejercicio2VecToolStripMenuItem_Click;
+            // 
+            // ejercicio3VecToolStripMenuItem
+            // 
+            ejercicio3VecToolStripMenuItem.Name = "ejercicio3VecToolStripMenuItem";
+            ejercicio3VecToolStripMenuItem.Size = new Size(148, 22);
+            ejercicio3VecToolStripMenuItem.Text = "Ejercicio 3 Vec";
+            ejercicio3VecToolStripMenuItem.Click += ejercicio3VecToolStripMenuItem_Click;
+            // 
+            // ejercicio4VecToolStripMenuItem
+            // 
+            ejercicio4VecToolStripMenuItem.Name = "ejercicio4VecToolStripMenuItem";
+            ejercicio4VecToolStripMenuItem.Size = new Size(148, 22);
+            ejercicio4VecToolStripMenuItem.Text = "Ejercicio 4 Vec";
+            ejercicio4VecToolStripMenuItem.Click += ejercicio4VecToolStripMenuItem_Click;
+            // 
+            // ejercicio5VecToolStripMenuItem
+            // 
+            ejercicio5VecToolStripMenuItem.Name = "ejercicio5VecToolStripMenuItem";
+            ejercicio5VecToolStripMenuItem.Size = new Size(148, 22);
+            ejercicio5VecToolStripMenuItem.Text = "Ejercicio 5 Vec";
+            ejercicio5VecToolStripMenuItem.Click += ejercicio5VecToolStripMenuItem_Click;
+            // 
             // Titulo
             // 
             Titulo.AutoSize = true;
@@ -305,17 +314,18 @@
         private ToolStripMenuItem ejercicio3CadenaToolStripMenuItem;
         private ToolStripMenuItem ejercicio4CadenaToolStripMenuItem;
         private ToolStripMenuItem ejercicio5CadenaToolStripMenuItem;
-        private ToolStripMenuItem vectoresToolStripMenuItem;
-        private ToolStripMenuItem ejercicio1VectorToolStripMenuItem;
-        private ToolStripMenuItem ejercicio2VectorToolStripMenuItem;
-        private ToolStripMenuItem ejercicio3VectorToolStripMenuItem;
-        private ToolStripMenuItem ejercicio4VectorToolStripMenuItem;
-        private ToolStripMenuItem ejercicio5VectorToolStripMenuItem;
         private ToolStripMenuItem numeroToolStripMenuItem;
         private ToolStripMenuItem ejercicio1NumerosToolStripMenuItem;
         private ToolStripMenuItem Ejercicio2Numeros;
         private ToolStripMenuItem ejercicio3Numeros;
         private ToolStripMenuItem ejercicio4Numeros;
         private ToolStripMenuItem ejercicio5Numeros;
+        private ToolStripMenuItem andresToolStripMenuItem;
+        private ToolStripMenuItem vectorToolStripMenuItem;
+        private ToolStripMenuItem ejercicio1VecToolStripMenuItem;
+        private ToolStripMenuItem ejercicio2VecToolStripMenuItem;
+        private ToolStripMenuItem ejercicio3VecToolStripMenuItem;
+        private ToolStripMenuItem ejercicio4VecToolStripMenuItem;
+        private ToolStripMenuItem ejercicio5VecToolStripMenuItem;
     }
 }

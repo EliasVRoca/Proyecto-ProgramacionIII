@@ -126,7 +126,42 @@ namespace Proyecto_ProgramacionIII
         private void ejercicio5Numeros_Click(object sender, EventArgs e)
         {
             Impares_antes_Pares_Form Imp_antes_pares = new Impares_antes_Pares_Form();
-            Imp_antes_pares.Show(); 
+            Imp_antes_pares.Show();
+        }
+
+        private void vectorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ejercicio1VecToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Vector1 vector1 = new Vector1();
+            vector1.Show();
+        }
+
+        private void ejercicio2VecToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Vector2 vector2 = new Vector2();
+            vector2.Show();
+        }
+
+        private void ejercicio3VecToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Vector3 vector3 = new Vector3();
+            vector3.Show();
+        }
+
+        private void ejercicio4VecToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Vector4 vector4 = new Vector4();
+            vector4.Show();
+        }
+
+        private void ejercicio5VecToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Vector5 vector5 = new Vector5();
+            vector5.Show();
         }
     }
 }
