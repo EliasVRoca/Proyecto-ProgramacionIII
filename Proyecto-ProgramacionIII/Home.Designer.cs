@@ -1,6 +1,6 @@
 ﻿namespace Proyecto_ProgramacionIII
 {
-    partial class Form1
+    partial class Home
     {
         /// <summary>
         ///  Required designer variable.
@@ -285,8 +285,8 @@
             Controls.Add(Titulo);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
-            Name = "Form1";
-            Text = "Form1";
+            Name = "Home";
+            Text = "Home";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
