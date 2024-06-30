@@ -1,6 +1,6 @@
 # Proyecto-ProgramacionIII
 
-##Integrantes de grupo
+## Integrantes de grupo
 
 1.- Jose Luis Berrios Ojeda
 
